@@ -3,7 +3,7 @@
 This project is part of my exercise in the Python programming course. It implements a simple chatroom application using Python's `socket` and `threading` modules, with SQLite for storing chat messages. It consists of two main files: `server.py` (the server) and `client.py` (the client).
 
 ## Overview
----
+
 The chat server listens for incoming client connections, handles multiple clients concurrently, and stores chat messages in a SQLite database. The client connects to the server, allows users to send messages, and displays incoming messages from other users.
 
 ### Features
@@ -14,7 +14,7 @@ The chat server listens for incoming client connections, handles multiple client
 - Basic error handling for client disconnections.
 
 ## Files
----
+
 ### `server.py` - Chat Server
 
 - Initializes a socket server, listens for incoming connections on a specified host and port.
@@ -32,7 +32,7 @@ The chat server listens for incoming client connections, handles multiple client
 - Handles graceful disconnection if the server is unavailable.
 
 ## How to Use
----
+
 ### 1. Run the Server
 
 To start the chat server, execute the `server.py` script. The server will listen for incoming client connections on `127.0.0.1:12345` by default.
@@ -62,7 +62,7 @@ The server stores each message in the database, which is fetched and displayed f
 - This project is an exercise for my Python programming course, where I learned key concepts like socket programming, threading, and database management with SQLite.
 
 ## Connect with My Teacher
----
+
 You can reach out to my teacher via Instagram for more information or help.
 
 <a href="https://www.instagram.com/hosein_rad_art">
