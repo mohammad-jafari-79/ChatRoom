@@ -31,5 +31,5 @@ class ChatClient:
                 break
 
 if __name__ == "__main__":
-    client = ChatClient('127.0.0.1cc', 12345)
+    client = ChatClient('127.0.0.1', 12345)
     client.start()
